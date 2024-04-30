@@ -51,7 +51,7 @@ img {
 .frame-style {
     border-width: 1px;
     border-color: rgb(61, 159, 255); /* Цвет границы */
-    border-style: ridge;
+    border-style: solid;
     padding: 10px;
    }
 .title_wrapper h1 {
