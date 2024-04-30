@@ -48,7 +48,8 @@ img {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.frame-style {
+div.frame-style {
+    text-align: center; 
     border-width: 1px;
     border-color: rgb(61, 159, 255); /* Цвет границы */
     border-style: solid;
