@@ -59,6 +59,10 @@ button {
 	outline: none;
 	border: 0 !important;
 }
+.header-main-page {
+    color: rgb(61, 159, 255); /* Цвет текста */
+    font-size: 200%; /* Размер шрифта */
+   } 
 @media (max-width: 768px) {
 	.title_wrapper {
 		text-align: center;
