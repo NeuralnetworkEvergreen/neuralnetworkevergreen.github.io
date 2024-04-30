@@ -48,6 +48,12 @@ img {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+.frame-style {
+    border-width: 1px;
+    border-color: rgb(61, 159, 255); /* Цвет границы */
+    border-style: ridge;
+    padding: 10px;
+   }
 .title_wrapper h1 {
 	width: 70%;
 }
