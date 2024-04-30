@@ -69,8 +69,3 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     : false
-
----
-layout: Постецкий
-title: Здесь мы идём опять
----
