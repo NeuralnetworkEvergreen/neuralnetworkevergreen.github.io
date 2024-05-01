@@ -76,6 +76,7 @@ button {
 	padding: 10px;
 	width: 75vw;
 	margin: auto;
+	max-width: 900px;
   }
 @media (max-width: 768px) {
 	.title_wrapper {
