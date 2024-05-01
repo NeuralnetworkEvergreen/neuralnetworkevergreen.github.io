@@ -69,7 +69,15 @@ button {
 .header-main-page {
     color: rgb(61, 159, 255); /* Цвет текста */
     font-size: 200%; /* Размер шрифта */
-   } 
+   }
+.block_walltext {
+	background-color: #fff;
+	color: black;
+	border: 2px solid rgb(61, 159, 255);
+	padding: 10px;
+	width: 75vw;
+        max-width: 900px;
+  }
 @media (max-width: 768px) {
 	.title_wrapper {
 		text-align: center;
@@ -89,17 +97,3 @@ button {
 		margin-bottom: 7rem;
 	}
 }
-.main {
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        max-width: 1500px;
-        background-color: red;
-      }
-.inner {
-        width: 75vw;
-        max-width: 900px;
-        background-color: yellow;
-        display: flex;
-        font-size: 3rem;
-      }
