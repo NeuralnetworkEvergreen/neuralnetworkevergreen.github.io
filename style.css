@@ -89,3 +89,17 @@ button {
 		margin-bottom: 7rem;
 	}
 }
+.main {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        max-width: 1500px;
+        background-color: red;
+      }
+.inner {
+        width: 75vw;
+        max-width: 900px;
+        background-color: yellow;
+        display: flex;
+        font-size: 3rem;
+      }
