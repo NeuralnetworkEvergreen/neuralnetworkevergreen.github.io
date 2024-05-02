@@ -31,6 +31,22 @@
     right: 0; 
     z-index: -1
    }
+  .container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.interest {
+  display: flex;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
   </style>
  </head>
 <body>
@@ -40,7 +56,7 @@
   <div class="block_walltext" align="justify">
    <h1 align="center"><i>«Саасхан»</i></h1>
 
-   <h2>Аннотация</h2>
+   <h2<a name="top"></a>>Аннотация</h2>
 
   <p>Этот рассказ — история в первую очередь о людях. Некоторые из них не совсем обычные, но это не делает их меньше людьми. Во вторую — вольное переложение мифа о хакасской сороке, которая когда-то была царицей (ханом) среди птиц.
   Если вы заметили опечатку или просто хотите мне что-то сказать, то можете связаться со мной по этой почте: abstraction.absolute@protonmail.com.
@@ -315,7 +331,15 @@
 <br>— Приветствую вас в Кукушкином гнезде, — эхом отозвался в голове голос, и Лиза улыбнулась.
 <div style="height:40px"></div>
   <hr noshade size="2" color="3D9FFF">
- <p align="right">(с)Digital Evergreen, 2023-2024</p>
+<div class="container">
+  <div class="interest left">
+    <a href="top"><button class="button is-medium">В начало</button></a>
+    <a href="https://neuralnetworkevergreen.github.io/"><button class="button is-medium">На главную</button></a>
+  </div>
+  <div class="interest right">
+    (с)Digital Evergreen, 2023-2024
+  </div>
+</div>
       </div>
   </div>
  </body>
