@@ -6,26 +6,36 @@
   <title>Digital Ghost</title>
   <link rel="stylesheet" href="style.css">
   <style>
-     html {
-    background: url(https://neuralnetworkevergreen.github.io/ss_back01.png) fixed no-repeat;
-    background-position: right top;
-    background-size: 30% 100%;
-   }
    body {
-    background: url(https://neuralnetworkevergreen.github.io/ss_back02.png) fixed no-repeat;
-    background-size: 30% 100%;
+    background: none;
    }
    .story-illust {
         margin: auto;
         width: 100vw;
         max-width: 1300px;
-      }
-  p {
+   }
+   p {
   text-indent: 2em;
-}
+   }
+   .img1 {
+    position: fixed; 
+    height: 100vh; 
+    top: 0; 
+    left: 0; 
+    z-index: -1
+   }
+    .img2 {
+    position: fixed; 
+    height: 100vh; 
+    top: 0; 
+    right: 0; 
+    z-index: -1
+   }
   </style>
  </head>
 <body>
+<img src="https://neuralnetworkevergreen.github.io/ss_back02.png" alt="Нейросетевая Плесень" class="img1">
+<img src="https://neuralnetworkevergreen.github.io/ss_back01.png" alt="Нейросетевая Плесень" class="img2">
  <div class="story-illust">
   <div class="block_walltext" align="justify">
    <h1 align="center"><i>«Саасхан»</i></h1>
